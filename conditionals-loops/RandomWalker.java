@@ -1,6 +1,11 @@
 /* *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
+ *
+ *   Write a program RandomWalker.java that takes an integer command-line argument r 
+ *   and simulates the motion of a random walker for r steps. 
+ *   After each step, print the location of the random walker, 
+ *   treating the lamp post as the origin (0, 0).
  **************************************************************************** */
 
 public class RandomWalker {
