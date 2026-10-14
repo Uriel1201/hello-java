@@ -46,8 +46,7 @@ public class Birthday {
        
         int n = Integer.parseInt(args[0]);
         int trials = Integer.parseInt(args[1]);
-        int m = n + 2;
-        int[] s = new int[m];
+        int[] s = new int[n + 2];
         
         for (int i = 0; i < trials; i++) {
             boolean[] birthday = new boolean[n];
