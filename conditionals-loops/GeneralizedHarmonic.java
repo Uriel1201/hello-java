@@ -1,6 +1,12 @@
-/* *****************************************************************************
- *  Name:              Dante1201 (Carlos Uriel García)
- *  Id:                1201
+/** *****************************************************************************
+ *  Name: Dante1201 (Carlos Uriel García)
+ *  Id:   1201
+ *
+ *  Write a program GeneralizedHarmonic.java that takes two integer command-line 
+ *  arguments n and r and uses a for loop to compute the nth generalized harmonic 
+ *  number of order r, which is defined by the following formula:
+ *
+ *  \(H(n, r) = \frac{1}{1^r} + \frac{1}{2^r} + \cdots + \frac{1}{n^r}.\)
  **************************************************************************** */
 
 public class GeneralizedHarmonic {
