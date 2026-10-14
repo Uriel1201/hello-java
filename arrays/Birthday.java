@@ -64,7 +64,7 @@ public class Birthday {
         
         double f = 0.0;
         
-        for (int k = 1; k < m; k++) {
+        for (int k = 1; k < n + 2; k++) {
             f += 1.0 * s[k] / trials;
             System.out.println(k + "  " + s[k] + "  " + f);
             if (f >= 0.5) break;
