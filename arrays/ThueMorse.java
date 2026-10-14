@@ -1,6 +1,20 @@
-/* *****************************************************************************
+/** *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
+ *
+ *  Write a program ThueMorse.java that takes an integer command-line argument n 
+ *  and prints an n-by-n pattern. 
+ *  Include two space characters between each + and - character.
+ *
+ *  ~/Desktop/arrays> java ThueMorse 8
+ *    +  -  -  +  -  +  +  -
+ *    -  +  +  -  +  -  -  +
+ *    -  +  +  -  +  -  -  +
+ *    +  -  -  +  -  +  +  -
+ *    -  +  +  -  +  -  -  +
+ *    +  -  -  +  -  +  +  -
+ *    +  -  -  +  -  +  +  -
+ *    -  +  +  -  +  -  -  +
  **************************************************************************** */
 
 public class ThueMorse {
@@ -25,7 +39,7 @@ public class ThueMorse {
             }
         }
         else {
-            System.out.println("n must to be no negative");
+            System.out.println("n must be non-negative");
         }
     }
 }
