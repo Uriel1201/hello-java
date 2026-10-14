@@ -1,6 +1,10 @@
 /* *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
+ *  
+ *  Write a program RandomWalkers.java that takes two integer command-line arguments r and trials. 
+ *  In each of trials independent experiments, simulate a random walk of r steps and compute 
+ *  the average of the steps to reach Manhattan distance r.
  **************************************************************************** */
 
 public class RandomWalkers {
