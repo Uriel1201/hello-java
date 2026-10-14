@@ -1,6 +1,11 @@
-/* *****************************************************************************
+/** *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
+ *
+ *  Write a program DiscreteDistribution.java that takes an integer command-line argument m, 
+ *  followed by a sequence of positive integer command-line arguments a1,a2,…,an
+ *  and prints m random indices (separated by whitespace), choosing each index i
+ *  with probability proportional to ai.
  **************************************************************************** */
 
 public class DiscreteDistribution {
