@@ -1,8 +1,8 @@
-/* *****************************************************************************
+/** *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
  *  Write a program BandMatrix.java that takes two integer command-line arguments 
- *  n and width and prints an an n-by-n pattern like the ones below, 
+ *  n and width and prints an n-by-n pattern like the ones below, 
  *  with a zero (0) for each element whose distance from the main diagnonal is 
  *  strictly more than width, and an asterisk (*) for each entry that is not. 
  *  Here, distance means the minimum number of cells you have to move 
@@ -30,7 +30,7 @@ public class BandMatrix {
             }
 
         } else {
-            System.out.println("n an width must to be no negative.");
+            System.out.println("n an width must be non-negative.");
         }
     }
 }
