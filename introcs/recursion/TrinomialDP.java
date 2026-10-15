@@ -1,6 +1,9 @@
 /* *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
+ *
+ *  Write a program TrinomialDP.java that takes two integer command-line arguments 
+ *  n and k and computes the trinomial coefficient T(n,k) using dynamic programming.
  **************************************************************************** */
 
 public class TrinomialDP {
