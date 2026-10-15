@@ -14,6 +14,8 @@
  *  exactly i people enter the room, and the fraction of times that i or fewer people enter the room) 
  *  for each possible value of i from 1 until the fraction reaches (or exceeds) 50%.
  *
+ *  ~/hello-data> javac -d out introcs/arrays/Birthday.java
+ *
  *  ~/hello-data> java -cp out Birthday 365 1000000
  *  1	0	    0.0
  *  2	2710	0.00271
