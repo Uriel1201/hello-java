@@ -1,6 +1,11 @@
-/* *****************************************************************************
+/** *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
+ *
+ *  Write a program ActivationFunction.java to compute 
+ *  various activation functions that arise in neural networks. 
+ *  An activation function is a function that maps real numbers into a desired range, 
+ *  such as between 0 and 1 or between –1 and +1.
  **************************************************************************** */
 
 public class ActivationFunction {
