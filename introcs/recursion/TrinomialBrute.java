@@ -10,6 +10,7 @@
  *  ~/hello-data> javac -d out introcs/recursion/TrinomialBrute.java
  *
  *  ~/hello-data> java -cp out TrinomialBrute 24 12
+ *  287134346
  **************************************************************************** */
 
 public class TrinomialBrute {
