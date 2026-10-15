@@ -7,6 +7,10 @@
  *  Assume that the the discs are labeled in increasing order of size from 1 to n 
  *  and that the poles are labeled A, B, C, and D, with A representing the starting 
  *  pole and D representing the destination pole.
+ *
+ *  ~/hello-data> javac -d out introcs/recursion/RevesPuzzle.java
+ *
+ *  ~/hello-data> java -cp out RevesPuzzle 5
  **************************************************************************** */
 
 public class RevesPuzzle {
