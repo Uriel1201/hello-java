@@ -10,7 +10,9 @@
  *  - For each cell not containing a mine, count the number of neighboring mines 
  *    (above, below, left, right, or diagonal).
  *
- *  ~/Desktop/arrays> java Minesweeper 9 9 10
+ *  ~/hello-data> javac -d out introcs/arrays/Minesweeper.java
+ *
+ *  ~/hello-data> java -cp out Minesweeper 9 9 10
  *  0  1  *  1  0  0  0  1  *  
  *  1  3  2  2  0  0  0  1  1  
  *  *  2  *  1  0  0  1  1  1  
