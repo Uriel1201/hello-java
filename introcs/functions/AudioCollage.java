@@ -62,11 +62,11 @@ public class AudioCollage {
     }
 
     public static void main(String[] args) {
-        double[] broken = StdAudio.read("broken.wav");
-        double[] chimes = StdAudio.read("chimes.wav");
-        double[] naruto = StdAudio.read("naruto.wav");
-        double[] piano = StdAudio.read("piano.wav");
-        double[] singer = StdAudio.read("singer.wav");
+        //double[] broken = StdAudio.read("broken.wav");
+        double[] chimes = StdAudio.read("data/chimes.wav");
+        //double[] naruto = StdAudio.read("naruto.wav");
+        double[] piano = StdAudio.read("data/piano.wav");
+        double[] singer = StdAudio.read("data/singer.wav");
         int brn = 30 * 44100;
         int nrn = 14 * 44100;
         double[] brok = new double[brn];
