@@ -8,11 +8,11 @@
  *  ~/hello-data> javac -d out introcs/functions/Divisors.java
  *
  *  ~/hello-data> java -cp out Divisors 2018 8
- *  gcd(2018,8)                = 2
- *  lcm(2018,8)                = 8072
+ *  gcd(2018,8) = 2
+ *  lcm(2018,8) = 8072
  *  areRelativelyPrime(2018,8) = false
- *  totient(2018)              = 1008
- *  totient(8)                 = 4
+ *  totient(2018) = 1008
+ *  totient(8) = 4
  **************************************************************************** */
 
 public class Divisors {
@@ -74,10 +74,10 @@ public class Divisors {
         int x = Integer.parseInt(args[0]);
         int y = Integer.parseInt(args[1]);
         
-        System.out.println("gcd(" + x + "," + y + ")                = " + gcd(x, y));
-        System.out.println("lcm(" + x + "," + y + ")                = " + lcm(x, y));
+        System.out.println("gcd(" + x + "," + y + ") = " + gcd(x, y));
+        System.out.println("lcm(" + x + "," + y + ") = " + lcm(x, y));
         System.out.println("areRelativelyPrime(" + x + "," + y + ") = " + areRelativelyPrime(x, y));
-        System.out.println("totient(" + x + ")                 = " + totient(x));
-        System.out.println("totient(" + y + ")                 = " + totient(y));
+        System.out.println("totient(" + x + ") = " + totient(x));
+        System.out.println("totient(" + y + ") = " + totient(y));
     }
 }
