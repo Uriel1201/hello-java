@@ -7,13 +7,13 @@
  *  and prints the Shannon entropy to standard output, with 4 digits 
  *  after the decimal point.
  *
- *  ~/Desktop/io> javac-introcs ShannonEntropy.java
+ *  ~/hello-data> javac -cp lib/stdlib.jar -d out introcs/input-output/ShannonEntropy.java
  *
- *  ~/Desktop/io> cat fair-coin.txt
+ *  ~/hello-data> cat fair-coin.txt
  *  1 1 1 1 2 1 2 1 1 2
  *  2 2 2 2 1 2 1 2 2 1
  *
- *  ~/Desktop/io> java-introcs ShannonEntropy 2 < fair-coin.txt
+ *  ~/hello-data> java -cp out:lib/stdlib.jar ShannonEntropy 2 < data/fair-coin.txt
  *  1.0000
  **************************************************************************** */
 
