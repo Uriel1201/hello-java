@@ -6,6 +6,10 @@
  *  various activation functions that arise in neural networks. 
  *  An activation function is a function that maps real numbers into a desired range, 
  *  such as between 0 and 1 or between –1 and +1.
+ *
+ *  ~/hello-data> javac -d out introcs/functions/ActivationFunction.java
+ *
+ *  ~/hello-data> java -cp out ActivationFunction 3.1416
  **************************************************************************** */
 
 public class ActivationFunction {
