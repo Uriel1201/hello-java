@@ -9,7 +9,7 @@
  *
  *  ~/hello-data> javac -cp lib/stdlib.jar -d out introcs/input-output/ShannonEntropy.java
  *
- *  ~/hello-data> cat fair-coin.txt
+ *  ~/hello-data> cat data/fair-coin.txt
  *  1 1 1 1 2 1 2 1 1 2
  *  2 2 2 2 1 2 1 2 2 1
  *
