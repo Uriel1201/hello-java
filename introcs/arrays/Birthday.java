@@ -5,9 +5,9 @@
  *  Write a program Birthday.java that takes two integer command-line arguments n 
  *  and trials and performs the following experiment, trials times:
  *
- *  -Choose a birthday for the next person, uniformly at random between 0 and n−1.
- *  -Have that person enter the room.
- *  -If that person shares a birthday with someone else in the room, stop; otherwise repeat.
+ *  - Choose a birthday for the next person, uniformly at random between 0 and n−1.
+ *  - Have that person enter the room.
+ *  - If that person shares a birthday with someone else in the room, stop; otherwise repeat.
  *
  *  In each experiment, count the number of people that enter the room. 
  *  Print a table that summarizes the results (the count i, the number of times that 
