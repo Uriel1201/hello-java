@@ -6,6 +6,7 @@
  *  and prints an n-by-n pattern. 
  *  Include two space characters between each + and - character.
  *
+ *.   Mi
  *  ~/Desktop/arrays> java ThueMorse 8
  *    +  -  -  +  -  +  +  -
  *    -  +  +  -  +  -  -  +
