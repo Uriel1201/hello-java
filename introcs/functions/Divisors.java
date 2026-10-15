@@ -1,6 +1,9 @@
-/* *****************************************************************************
+/** *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
+ *
+ *  Write a program Divisors.java to compute the greatest common divisor 
+ *  and related functions on integers:
  **************************************************************************** */
 
 public class Divisors {
