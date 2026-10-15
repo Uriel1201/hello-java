@@ -1,6 +1,20 @@
-/* *****************************************************************************
+/** *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
+ *
+ *  Write a program ShannonEntropy.java that takes a command-line integer m; 
+ *  reads a sequence of integers between 1 and m from standard input; 
+ *  and prints the Shannon entropy to standard output, with 4 digits 
+ *  after the decimal point.
+ *
+ *  ~/Desktop/io> javac-introcs ShannonEntropy.java
+ *
+ *  ~/Desktop/io> cat fair-coin.txt
+ *  1 1 1 1 2 1 2 1 1 2
+ *  2 2 2 2 1 2 1 2 2 1
+ *
+ *  ~/Desktop/io> java-introcs ShannonEntropy 2 < fair-coin.txt
+ *  1.0000
  **************************************************************************** */
 
 public class ShannonEntropy {
