@@ -51,10 +51,7 @@ public class Divisors {
     }
 
     public static boolean areRelativelyPrime(int a, int b) {
-        int g = gcd(a, b);
-        boolean rp = (g == 1);
-       
-        return rp;
+        return (gcd(a, b) == 1);
     }
 
     public static int totient(int n) {
