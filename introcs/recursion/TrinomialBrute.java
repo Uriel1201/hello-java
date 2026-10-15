@@ -1,6 +1,11 @@
 /* *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
+ *
+ *  Write a program TrinomialBrute.java that takes two integer command-line 
+ *  arguments n and k and computes the corresponding trinomial coefficient. 
+ *  The trinomial coefficient T(n,k) is the coefficient of x^(n+k) in the expansion of 
+ *  (1+x+x2)^n
  **************************************************************************** */
 
 public class TrinomialBrute {
