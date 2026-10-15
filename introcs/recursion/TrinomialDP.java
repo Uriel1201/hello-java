@@ -1,9 +1,13 @@
-/* *****************************************************************************
+/** *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
  *
  *  Write a program TrinomialDP.java that takes two integer command-line arguments 
  *  n and k and computes the trinomial coefficient T(n,k) using dynamic programming.
+ *  
+ *  ~/hello-data> javac -d out introcs/recursion/TrinomialDP.java
+ *
+ *  ~/hello-data> java -cp out TrinomialDP 40 0
  **************************************************************************** */
 
 public class TrinomialDP {
