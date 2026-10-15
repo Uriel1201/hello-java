@@ -10,7 +10,88 @@
  *
  *  ~/hello-data> javac -d out introcs/recursion/RevesPuzzle.java
  *
- *  ~/hello-data> java -cp out RevesPuzzle 5
+ *  ~/hello-data> java -cp out RevesPuzzle 12
+ *  Move disc 1 from A to C
+ *  Move disc 2 from A to B
+ *  Move disc 3 from A to D
+ *  Move disc 2 from B to D
+ *  Move disc 1 from C to D
+ *  Move disc 4 from A to C
+ *  Move disc 5 from A to B
+ *  Move disc 4 from C to B
+ *  Move disc 1 from D to C
+ *  Move disc 2 from D to A
+ *  Move disc 3 from D to B
+ *  Move disc 2 from A to B
+ *  Move disc 1 from C to B
+ *  Move disc 6 from A to C
+ *  Move disc 7 from A to D
+ *  Move disc 6 from C to D
+ *  Move disc 8 from A to C
+ *  Move disc 6 from D to A
+ *  Move disc 7 from D to C
+ *  Move disc 6 from A to C
+ *  Move disc 1 from B to A
+ *  Move disc 2 from B to C
+ *  Move disc 3 from B to D
+ *  Move disc 2 from C to D
+ *  Move disc 1 from A to D
+ *  Move disc 4 from B to A
+ *  Move disc 5 from B to C
+ *  Move disc 4 from A to C
+ *  Move disc 1 from D to A
+ *  Move disc 2 from D to B
+ *  Move disc 3 from D to C
+ *  Move disc 2 from B to C
+ *  Move disc 1 from A to C
+ *  Move disc 9 from A to B
+ *  Move disc 10 from A to D
+ *  Move disc 9 from B to D
+ *  Move disc 11 from A to B
+ *  Move disc 9 from D to A
+ *  Move disc 10 from D to B
+ *  Move disc 9 from A to B
+ *  Move disc 12 from A to D
+ *  Move disc 9 from B to D
+ *  Move disc 10 from B to A
+ *  Move disc 9 from D to A
+ *  Move disc 11 from B to D
+ *  Move disc 9 from A to B
+ *  Move disc 10 from A to D
+ *  Move disc 9 from B to D
+ *  Move disc 1 from C to D
+ *  Move disc 2 from C to B
+ *  Move disc 3 from C to A
+ *  Move disc 2 from B to A
+ *  Move disc 1 from D to A
+ *  Move disc 4 from C to D
+ *  Move disc 5 from C to B
+ *  Move disc 4 from D to B
+ *  Move disc 1 from A to D
+ *  Move disc 2 from A to C
+ *  Move disc 3 from A to B
+ *  Move disc 2 from C to B
+ *  Move disc 1 from D to B
+ *  Move disc 6 from C to D
+ *  Move disc 7 from C to A
+ *  Move disc 6 from D to A
+ *  Move disc 8 from C to D
+ *  Move disc 6 from A to C
+ *  Move disc 7 from A to D
+ *  Move disc 6 from C to D
+ *  Move disc 1 from B to C
+ *  Move disc 2 from B to D
+ *  Move disc 3 from B to A
+ *  Move disc 2 from D to A
+ *  Move disc 1 from C to A
+ *  Move disc 4 from B to C
+ *  Move disc 5 from B to D
+ *  Move disc 4 from C to D
+ *  Move disc 1 from A to C
+ *  Move disc 2 from A to B
+ *  Move disc 3 from A to D
+ *  Move disc 2 from B to D
+ *  Move disc 1 from C to D
  **************************************************************************** */
 
 public class RevesPuzzle {
