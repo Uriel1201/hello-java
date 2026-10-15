@@ -1,6 +1,12 @@
-/* *****************************************************************************
+/** *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
+ *
+ *  Write a program RevesPuzzle.java that takes an integer command-line argument n 
+ *  and prints a solution to Reve’s puzzle. 
+ *  Assume that the the discs are labeled in increasing order of size from 1 to n 
+ *  and that the poles are labeled A, B, C, and D, with A representing the starting 
+ *  pole and D representing the destination pole.
  **************************************************************************** */
 
 public class RevesPuzzle {
