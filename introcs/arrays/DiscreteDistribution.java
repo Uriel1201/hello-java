@@ -6,6 +6,11 @@
  *  followed by a sequence of positive integer command-line arguments a1,a2,…,an
  *  and prints m random indices (separated by whitespace), choosing each index i
  *  with probability proportional to ai.
+ *
+    !javac -d out introcs/arrays/DiscreteDistribution.java
+
+    !java -cp out DiscreteDistribution 30 10 10 10 20 40
+1  5  5  4  3  2  2  4  4  5  4  3  4  5  4  4  3  5  5  5  5  5  5  5  5  5  5  1  5  4  
  **************************************************************************** */
 
 public class DiscreteDistribution {
