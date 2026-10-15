@@ -69,24 +69,25 @@ public class AudioCollage {
         double[] singer = StdAudio.read("data/singer.wav");
         int brn = 30 * 44100;
         int nrn = 14 * 44100;
+        /*
         double[] brok = new double[brn];
         double[] naru = new double[nrn];
         for (int i = 0; i < brn; i++)
             brok[i] = broken[i];
         for (int i = 0; i < nrn; i++)
             naru[i] = naruto[i];
+        */
         int n = 10 * 44100;
         double[] silence1 = new double[n];
         double[] a1 = merge(chimes, singer);
         double[] a2 = amplify(merge(silence1, a1), 0.7);
-        double[] mix1 = mix(naru, a2);
+        //double[] mix1 = mix(naru, a2);
         double[] b1 = changeSpeed(amplify(piano, 0.7), 0.5);
         double[] b2 = reverse(b1);
         int m = 24 * 44100;
         double[] silence2 = new double[m];
-        double[] brok2 = merge(silence2, mix(b2, brok));
-        double[] collage = mix(mix1, brok2);
+        double[] brok2 = merge(silence2, mix(b1, b2));
+        double[] collage = mix(a2, brok2);
         StdAudio.play(collage);
     }
 }
-
