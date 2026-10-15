@@ -40,7 +40,7 @@ public class TrinomialDP {
         int k = Integer.parseInt(args[1]);
        
         if (n < 0)
-            System.out.println("Error: n must to be no negative");
+            System.out.println("Error: n must be non-negative");
         else
             System.out.println(trinomial(n, k));
     }
