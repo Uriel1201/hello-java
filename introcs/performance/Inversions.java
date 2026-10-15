@@ -115,7 +115,7 @@ public class Inversions {
         int n = Integer.parseInt(args[0]);
         long k = Long.parseLong(args[1]);
 
-        if (k > n * (n - 1) / 2 || k < 0) {
+        if (k > (long) n * (n - 1) / 2 || k < 0) {
             StdOut.print("Error: k is outside the allowed limits.");
         }
         else {
