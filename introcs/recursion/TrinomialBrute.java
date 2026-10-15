@@ -6,6 +6,10 @@
  *  arguments n and k and computes the corresponding trinomial coefficient. 
  *  The trinomial coefficient T(n,k) is the coefficient of x^(n+k) in the expansion of 
  *  (1+x+x2)^n
+ *
+ *  ~/hello-data> javac -d out introcs/recursion/TrinomialBrute.java
+ *
+ *  ~/hello-data> java -cp out TrinomialBrute 24 12
  **************************************************************************** */
 
 public class TrinomialBrute {
