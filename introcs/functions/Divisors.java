@@ -8,6 +8,11 @@
  *  ~/hello-data> javac -d out introcs/functions/Divisors.java
  *
  *  ~/hello-data> java -cp out Divisors 2018 8
+ *  gcd(2018,8) = 2
+ *  lcm(2018,8) = 8072
+ *  areRelativelyPrime(2018,8) = false
+ *  totient(2018) = 1008
+ *  totient(8) = 4
  **************************************************************************** */
 
 public class Divisors {
