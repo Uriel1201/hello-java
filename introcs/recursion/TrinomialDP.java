@@ -8,6 +8,7 @@
  *  ~/hello-data> javac -d out introcs/recursion/TrinomialDP.java
  *
  *  ~/hello-data> java -cp out TrinomialDP 40 0
+ *  934837217271732457
  **************************************************************************** */
 
 public class TrinomialDP {
