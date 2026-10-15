@@ -4,6 +4,10 @@
  *
  *  Write a program Divisors.java to compute the greatest common divisor 
  *  and related functions on integers:
+ *
+ *  ~/hello-data> javac -d out introcs/functions/Divisors.java
+ *
+ *  ~/hello-data> java -cp out Divisors 2018 8
  **************************************************************************** */
 
 public class Divisors {
