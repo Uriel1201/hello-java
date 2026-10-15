@@ -10,6 +10,11 @@
  *  ~/hello-data> javac -d out introcs/functions/ActivationFunction.java
  *
  *  ~/hello-data> java -cp out ActivationFunction 3.1416
+ *  heaviside(3.1416) = 1.0
+ *  sigmoid(3.1416) = 0.9585764595431637
+ *  tanh(3.1416) = 0.9962721308919684
+ *  softsign(3.1416) = 0.7585474212864592
+ *  sqnl(3.1416) = 1.0
  **************************************************************************** */
 
 public class ActivationFunction {
