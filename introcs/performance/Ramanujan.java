@@ -4,6 +4,11 @@
  *
  *  Write a program Ramanujan.java that takes a long integer command-line argument n 
  *  and prints true if it is a Ramanujan number, and false otherwise. 
+ *  
+ *  ~/hello-data> javac -d out introcs/performance/Ramanujan.java
+ *
+ *  ~/hello-data> java -cp out Ramanujan 9223278330318728221
+ *  
  **************************************************************************** */
 
 public class Ramanujan {
