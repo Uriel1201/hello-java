@@ -88,19 +88,21 @@ public class Inversions {
                 }
 
                 int m = (int) (k - j);
-                if (m == 0) break;
-                int[] b = new int[m];
+                if (m > 0) {
+                    int[] b = new int[m];
 
-                for (int h = 0; h < m; h++) {
-                    b[h] = a[n - m - 1 + h];
+                    for (int h = 0; h < m; h++) {
+                        b[h] = a[n - m - 1 + h];
+                    }
+
+                    int q = a[n - 1];
+                    a[n - m - 1] = q;
+
+                    for (int h = n - m; h < n; h++) {
+                        a[h] = b[m - n + h];
+                    }
                 }
-
-                int q = a[n - 1];
-                a[n - m - 1] = q;
-
-                for (int h = n - m; h < n; h++) {
-                    a[h] = b[m - n + h];
-                }
+                break;
             }
         }
         return a;
