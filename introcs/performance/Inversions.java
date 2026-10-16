@@ -74,10 +74,6 @@ public class Inversions {
         
         long j = 0;
         while (i < n) {
-            
-            if (k == j && a[n - 1] != 0) {
-                break;
-            }
 
             int p = n - 1 - i;
 
