@@ -24,10 +24,10 @@
  *  ~/hello-data> javac -cp lib/stdlib.jar -d out introcs/performance/Inversions.java
  *
  *  ~/hello-data> java -cp out:lib/stdlib.jar Inversions 10 45
- *  
+ *  9 8 7 6 5 4 3 2 1 0 Number of inversions: 45
  *
  *  ~/hello-data> java -cp out:lib/stdlib.jar Inversions 10 20
- *
+ *  9 8 0 1 2 3 7 4 5 6 Number of inversions: 20
  **************************************************************************** */
 
 public class Inversions {
