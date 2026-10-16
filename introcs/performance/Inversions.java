@@ -21,12 +21,12 @@
  *      public static void main(String[] args)
  *  }
  *
- *  ~/hello-data> javac -d out introcs/performance/Inversions.java
+ *  ~/hello-data> javac -cp lib/stdlib.jar -d out introcs/performance/Inversions.java
  *
- *  ~/hello-data> java -cp out Inversions 10 45
+ *  ~/hello-data> java -cp out:lib/stdlib.jar Inversions 10 45
  *  
  *
- *  ~/hello-data> java -cp out Inversions 10 20
+ *  ~/hello-data> java -cp out:lib/stdlib.jar Inversions 10 20
  *
  **************************************************************************** */
 
