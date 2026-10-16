@@ -64,8 +64,7 @@ public class Inversions {
             c[i] = a[i];
         }
 
-        long inversions = mergesort(c, b, 0, n - 1);
-        return inversions;
+        return mergesort(c, b, 0, n - 1);
     }
 
     public static int[] generate(int n, long k) {
