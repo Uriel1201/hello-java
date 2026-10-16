@@ -4,6 +4,21 @@
  *
  *  Given an n-by-n matrix of 0s and 1s, find a contiguous square submatrix of 
  *  maximum size that contains only 1s.
+ *
+ *  ~/hello-data> javac -cp lib/stdlib.jar -d out introcs/performance/MaximumSquareSubmatrix.java
+ *
+ *  ~/hello-data> cat data/square7.txt
+ *  7
+ *  0  1  1  0  1  1  1
+ *  1  1  0  1  1  1  1
+ *  0  1  1  1  1  1  1
+ *  1  1  1  1  1  0  1
+ *  1  1  1  1  1  1  0
+ *  1  1  1  1  0  1  1
+ *  1  1  1  1  0  1  1
+ *
+ *  ~/hello-data> java -cp out:lib/stdlib.jar MaximumSquareSubmatrix.java < square7.txt
+ *  
  **************************************************************************** */
 
 public class MaximumSquareSubmatrix {
