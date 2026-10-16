@@ -71,10 +71,10 @@ public class Inversions {
 
         int[] a = new int[n];
         int i = 0;
-
+        
+        long j = 0;
         while (i < n) {
-            long j = 0;
-
+            
             if (k == j && a[n - 1] != 0) {
                 break;
             }
