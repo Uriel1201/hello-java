@@ -1,6 +1,9 @@
-/* *****************************************************************************
+/** *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
+ *
+ *  Write a program Ramanujan.java that takes a long integer command-line argument n 
+ *  and prints true if it is a Ramanujan number, and false otherwise. 
  **************************************************************************** */
 
 public class Ramanujan {
