@@ -1,6 +1,9 @@
 /* *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
+ *
+ *  Given an n-by-n matrix of 0s and 1s, find a contiguous square submatrix of 
+ *  maximum size that contains only 1s.
  **************************************************************************** */
 
 public class MaximumSquareSubmatrix {
@@ -65,15 +68,6 @@ public class MaximumSquareSubmatrix {
         }
 
         StdOut.print(size(a));
-
-        /*
-        int[][] a = {
-                { 0, 1, 0, 0, 0 },
-                { 0, 1, 1, 1, 1 },
-                { 0, 0, 1, 1, 1 },
-                { 1, 1, 1, 1, 1 },
-                { 0, 1, 1, 1, 1 }
-        };
-        System.out.println(size(a)); */
+        
     }
 }
