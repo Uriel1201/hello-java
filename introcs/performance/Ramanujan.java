@@ -8,7 +8,7 @@
  *  ~/hello-data> javac -d out introcs/performance/Ramanujan.java
  *
  *  ~/hello-data> java -cp out Ramanujan 9223278330318728221
- *  
+ *  true
  **************************************************************************** */
 
 public class Ramanujan {
