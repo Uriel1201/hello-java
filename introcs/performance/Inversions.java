@@ -1,6 +1,25 @@
 /* *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
+ *
+ *  Given an array of integers, a pair of elements a[i] and a[j] 
+ *  are inverted if i < j and a[i] > a[j]. 
+ *  For example, the array a[] has 1 inversion and the array b[] has 4 inversions.
+ *
+ *  Write a program Inversions.java that implements the following API:
+ *
+ *  public class Inversions {
+ *
+ *      // Return the number of inversions in the permutation a[].
+ *      public static long count(int[] a)
+ *
+ *      // Return a permutation of length n with exactly k inversions.
+ *      public static int[] generate(int n, long k)
+ *
+ *      // Takes an integer n and a long k as command-line arguments,
+ *      // and prints a permutation of length n with exactly k inversions.
+ *      public static void main(String[] args)
+ *  }
  **************************************************************************** */
 
 public class Inversions {
