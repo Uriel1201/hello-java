@@ -73,7 +73,7 @@ public class Inversions {
         int i = 0;
 
         while (i < n) {
-            long j = count(a);
+            long j = 0;
 
             if (k == j && a[n - 1] != 0) {
                 break;
@@ -84,6 +84,7 @@ public class Inversions {
             if (k - j >= p) {
                 a[i] = p;
                 i++;
+                j += p;
             }
             else {
                 for (int h = i; h < n; h++) {
