@@ -17,7 +17,7 @@
  *  1  1  1  1  0  1  1
  *  1  1  1  1  0  1  1
  *
- *  ~/hello-data> java -cp out:lib/stdlib.jar MaximumSquareSubmatrix.java < square7.txt
+ *  ~/hello-data> java -cp out:lib/stdlib.jar MaximumSquareSubmatrix.java < data/square7.txt
  *  
  **************************************************************************** */
 
