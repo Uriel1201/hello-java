@@ -149,7 +149,7 @@ public class Inversions {
             for (int i = 0; i < n; i++) {
                 StdOut.print(a[i] + " ");
             }
-            Stdout.print("Number of inversions: " + count(a));
+            StdOut.print("Number of inversions: " + count(a));
         }
     }
 }
