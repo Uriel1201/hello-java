@@ -7,9 +7,9 @@
  *  and prints m random indices (separated by whitespace), choosing each index i
  *  with probability proportional to ai.
  *
- *  ~/hello-data> javac -d out introcs/arrays/DiscreteDistribution.java
+ *  ~/hello-java> javac -d out introcs/arrays/DiscreteDistribution.java
  *
- *  ~/hello-data> java -cp out DiscreteDistribution 30 10 10 10 20 40
+ *  ~/hello-java> java -cp out DiscreteDistribution 30 10 10 10 20 40
  *  1  5  5  4  3  2  2  4  4  5  4  3  4  5  4  4  3  5  5  5  5  5  5  5  5  5  5  1  5  4  
  **************************************************************************** */
 
