@@ -6,9 +6,9 @@
  *  and prints an n-by-n pattern. 
  *  Include two space characters between each + and - character.
  *
- *  ~/hello-data> javac -d out introcs/arrays/ThueMorse.java
+ *  ~/hello-java> javac -d out introcs/arrays/ThueMorse.java
  *
- *  ~/hello-data> java -cp out ThueMorse 8
+ *  ~/hello-java> java -cp out ThueMorse 8
  *    +  -  -  +  -  +  +  -
  *    -  +  +  -  +  -  -  +
  *    -  +  +  -  +  -  -  +
