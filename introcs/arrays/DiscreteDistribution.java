@@ -42,6 +42,8 @@ public class DiscreteDistribution {
                     j = mid;
                 }
             }
+            System.out.print(i + "  ");
         }
+        System.out.println();
     }
 }
