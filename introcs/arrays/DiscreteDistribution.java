@@ -32,10 +32,15 @@ public class DiscreteDistribution {
         
         for (int k = 0; k < m; k++) {
             int p = (int) (Math.random() * s[n - 1]);
-           
-            for (int j = 1; j < n; j++) {
-                if (s[j] > p && s[j - 1] <= p)
-                    System.out.print(j + "  ");
+            int i = 0;
+            int j = n;
+            while (i < j) {
+                int mid = i + (j - i) / 2;
+                if (s[mid] <= p) {
+                    i = mid + 1;
+                } else {
+                    j = mid;
+                }
             }
         }
     }
