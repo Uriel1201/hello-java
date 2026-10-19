@@ -26,7 +26,7 @@ public class GeneralizedHarmonic {
 
         }
         else {
-            System.out.println("n must to be positive.");
+            System.out.println("n must be positive.");
         }
     }
 }
