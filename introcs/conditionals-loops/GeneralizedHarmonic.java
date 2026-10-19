@@ -7,6 +7,10 @@
  *  number of order r, which is defined by the following formula:
  *
  *  \(H(n, r) = \frac{1}{1^r} + \frac{1}{2^r} + \cdots + \frac{1}{n^r}.\)
+ *
+ *  ~/hello-java> javac -d out introcs/conditionals-loops/GeneralizedHarmonic.java
+ *
+ *  ~/hello-java> java -cp out GeneralizedHarmonic 200 4
  **************************************************************************** */
 
 public class GeneralizedHarmonic {
