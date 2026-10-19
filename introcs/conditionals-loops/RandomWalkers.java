@@ -10,6 +10,7 @@
  *  ~/hello-java> javac -d out introcs/conditionals-loops/RandomWalkers.java
  *
  *  ~/hello-java> java -cp out RandomWalkers 10 1000000
+ *  average number of steps = 59.065926
  **************************************************************************** */
 
 public class RandomWalkers {
