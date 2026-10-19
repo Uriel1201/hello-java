@@ -3,8 +3,13 @@
  *  Id:                1201
  *  
  *  Write a program RandomWalkers.java that takes two integer command-line arguments r and trials. 
- *  In each of trials independent experiments, simulate a random walk reaching 
- *  the Manhattan distance r and compute the average of the steps to reach such distance.
+ *  In each of trials independent experiments, simulate a random walk 
+ *  until the random walker is at Manhattan distance r from the starting point. 
+ *  Print the average number of steps.
+ *
+ *  ~/hello-java> javac -d out introcs/conditionals-loops/RandomWalkers.java
+ *
+ *  ~/hello-java> java -cp out RandomWalkers 10 1000000
  **************************************************************************** */
 
 public class RandomWalkers {
