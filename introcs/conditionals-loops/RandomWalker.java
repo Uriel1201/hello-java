@@ -2,10 +2,14 @@
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
  *
- *   Write a program RandomWalker.java that takes an integer command-line argument r 
- *   and simulates the motion of a random walker for r steps. 
- *   After each step, print the location of the random walker, 
- *   treating the lamp post as the origin (0, 0).
+ *  Write a program RandomWalker.java that takes an integer command-line argument r 
+ *  and simulates the motion of a random walker for r steps. 
+ *  After each step, print the location of the random walker, 
+ *  treating the lamp post as the origin (0, 0).
+ *
+ *  ~/hello-java> javac -d out introcs/conditionals-loops/RandomWalker.java
+ *
+ *  ~/hello-java> java -cp out RandomWalker 10
  **************************************************************************** */
 
 public class RandomWalker {
