@@ -30,7 +30,7 @@ public class BandMatrix {
             }
 
         } else {
-            System.out.println("n an width must be non-negative.");
+            System.out.println("n and width must be non-negative.");
         }
     }
 }
