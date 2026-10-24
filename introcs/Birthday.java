@@ -12,11 +12,11 @@
  *  In each experiment, count the number of people that enter the room.
  *  Print a table that summarizes the results (the count i, the number of times that
  *  exactly i people enter the room, and the fraction of times that i or fewer people enter the room)
- *  for each possible value of i from 1 until the fraction reaches (or exceeds) 50%.
+ *  for each possible value of i.
  *
- *  ~/hello-java$ javac -d out introcs/arrays/Birthday.java
+ *  ~/hello-java$ javac -cp "lib/*:lib-arrow/*" -d out introcs/Birthday.java
  *
- *  ~/hello-java$ java -cp out Birthday 365 1000000
+ *  ~/hello-java$ java --add-opens=java.base/java.nio=ALL-UNNAMED -cp "out:lib/*:lib-arrow/*" Birthday 365 1000000
  **************************************************************************** */
 
 import org.apache.arrow.memory.*;
