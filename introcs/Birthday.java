@@ -65,9 +65,9 @@ public class Birthday {
         ));
         try(BufferAllocator alloc = new RootAllocator();
             VectorSchemaRoot root = VectorSchemaRoot.create(schema, alloc)) {
-            IntVector kVec   = (IntVector) root.getVector("k");
-            IntVector cumVec = (IntVector) root.getVector("cumulative_k");
-            Float8Vector pVec   = (Float8Vector) root.getVector("p_k");
+            IntVector kVec    = (IntVector) root.getVector("k");
+            IntVector cumVec  = (IntVector) root.getVector("cumulative_k");
+            Float8Vector pVec = (Float8Vector) root.getVector("p_k");
             kVec.allocateNew(n + 1);
             cumVec.allocateNew(n + 1);
             pVec.allocateNew(n + 1);
@@ -77,9 +77,9 @@ public class Birthday {
             for (int k = 1; k < n + 2; k++) {
                 f += 1.0 * s[k] / trials;
                 cum += s[k];
-                kVec.setSafe(row, k);
-                cumVec.setSafe(row, cum);
-                pVec.setSafe(row, f);
+                kVec.set(row, k);
+                cumVec.set(row, cum);
+                pVec.set(row, f);
                 row++;
             }
             root.setRowCount(row);
