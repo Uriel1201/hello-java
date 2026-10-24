@@ -22,6 +22,12 @@
 public class Birthday {
 
     static int[] birthdaySimulation(int n, int trials) {
+        if (n <= 0) {
+            throw new IllegalArgumentException("n must be positive");
+        }
+        if (trials < 0) {
+            throw new IllegalArgumentException("trials must be non-negative");
+        }
         int[] s = new int[n + 2];
         for (int i = 0; i < trials; i++) {
             boolean[] birthday = new boolean[n];
