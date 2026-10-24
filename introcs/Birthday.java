@@ -80,8 +80,8 @@ public class Birthday {
                 kVec.set(row, k);
                 cumVec.set(row, cum);
                 pVec.set(row, f);
-                if (f >= 0.5) break;
                 row++;
+                if (f >= 0.5) break;
             }
             root.setRowCount(row);
             try (ArrowStreamWriter writer =
