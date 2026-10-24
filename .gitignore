@@ -1,24 +1,17 @@
-# Compiled class file
+# Javac
 *.class
 /out/
+/lib-arrow/
 
-# BlueJ files
-*.ctxt
-
-# Package Files 
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# Credentials and Secrets 
-/tokens
-.env
-env
-
-# Google Colab / Jupyter
+# Colab / Jupyter
 .ipynb_checkpoints/
-.colab/
+/sample_data/
+
+# Maven
+/target/
+dependency-reduced-pom.xml
+
+# Secrets
+.env
+*.key
+/tokens
