@@ -89,7 +89,7 @@ public class Birthday {
                 writer.writeBatch();
                 writer.end();
             } catch (java.io.IOException e) {
-                System.err.println("Error escribiendo Arrow: " + e.getMessage());
+                System.err.println("Error: " + e.getMessage());
                 System.exit(1);
             }
             System.out.flush();
