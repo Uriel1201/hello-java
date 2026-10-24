@@ -80,7 +80,7 @@ public class Birthday {
                 kVec.set(row, k);
                 cumVec.set(row, cum);
                 pVec.set(row, f);
-                if f >= 0.5 break;
+                if (f >= 0.5) break;
                 row++;
             }
             root.setRowCount(row);
