@@ -21,12 +21,7 @@
 
 public class Birthday {
 
-    static double heaviside(double x) {
-    }
-
-    public static void main(String[] args) {
-        int n = Integer.parseInt(args[0]);
-        int trials = Integer.parseInt(args[1]);
+    static int[] birthdaySimulation(int n, int trials) {
         int[] s = new int[n + 2];
         for (int i = 0; i < trials; i++) {
             boolean[] birthday = new boolean[n];
@@ -39,6 +34,13 @@ public class Birthday {
             }
             s[count]++;
         }
+        return s;
+    }
+
+    public static void main(String[] args) {
+        int n = Integer.parseInt(args[0]);
+        int trials = Integer.parseInt(args[1]);
+        int[] s = birthdaySimulation(n, trials);
         double f = 0.0;
         for (int k = 1; k < n + 2; k++) {
             f += 1.0 * s[k] / trials;
