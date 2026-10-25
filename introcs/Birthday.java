@@ -38,7 +38,7 @@ public class Birthday {
         int[] s = new int[n + 2];
         for (int i = 0; i < trials; i++) {
             boolean[] birthday = new boolean[n];
-            int count = 0;
+            int count          = 0;
             for (int j = 0; j < n + 1; j++) {
                 int p = (int) (Math.random() * n);
                 count++;
@@ -55,13 +55,13 @@ public class Birthday {
     }
 
     public static void main(String[] args) {
-        int n = Integer.parseInt(args[0]);
-        int trials = Integer.parseInt(args[1]);
-        int[] s = birthdaySimulation(n, trials);
+        int n         = Integer.parseInt(args[0]);
+        int trials    = Integer.parseInt(args[1]);
+        int[] s       = birthdaySimulation(n, trials);
         Schema schema = new Schema(java.util.Arrays.asList(
-            col("k", new ArrowType.Int(32, true)),
+            col("k",            new ArrowType.Int(32, true)),
             col("cumulative_k", new ArrowType.Int(32, true)),
-            col("p_k", new ArrowType.FloatingPoint(FloatingPointPrecision.DOUBLE))
+            col("p_k",          new ArrowType.FloatingPoint(FloatingPointPrecision.DOUBLE))
         ));
         try(BufferAllocator alloc = new RootAllocator();
             VectorSchemaRoot root = VectorSchemaRoot.create(schema, alloc)) {
@@ -71,9 +71,9 @@ public class Birthday {
             kVec.allocateNew(n + 1);
             cumVec.allocateNew(n + 1);
             pVec.allocateNew(n + 1);
-            double f = 0.0;
-            int cum = 0;
-            int row = 0;
+            double f          = 0.0;
+            int cum           = 0;
+            int row           = 0;
             for (int k = 1; k < n + 2; k++) {
                 f += 1.0 * s[k] / trials;
                 cum += s[k];
