@@ -66,7 +66,7 @@ public class Birthday {
         try(BufferAllocator alloc = new RootAllocator();
             VectorSchemaRoot root = VectorSchemaRoot.create(schema, alloc)) {
             IntVector kVec    = (IntVector) root.getVector("k");
-            IntVector sVec    = (IntVector) root.getVector("frequency_k");
+            IntVector sVec    = (IntVector) root.getVector("frequency");
             Float8Vector pVec = (Float8Vector) root.getVector("p_k");
             double f          = 0.0;
             int row           = 0;
