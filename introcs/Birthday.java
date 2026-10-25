@@ -68,12 +68,12 @@ public class Birthday {
             IntVector kVec    = (IntVector) root.getVector("k");
             IntVector cumVec  = (IntVector) root.getVector("cumulative_k");
             Float8Vector pVec = (Float8Vector) root.getVector("p_k");
-            kVec.allocateNew(n + 1);
-            cumVec.allocateNew(n + 1);
-            pVec.allocateNew(n + 1);
             double f          = 0.0;
             int cum           = 0;
             int row           = 0;
+            kVec.allocateNew(n + 1);
+            cumVec.allocateNew(n + 1);
+            pVec.allocateNew(n + 1);
             for (int k = 1; k < n + 2; k++) {
                 f += 1.0 * s[k] / trials;
                 cum += s[k];
