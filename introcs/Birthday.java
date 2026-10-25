@@ -59,26 +59,24 @@ public class Birthday {
         int trials    = Integer.parseInt(args[1]);
         int[] s       = birthdaySimulation(n, trials);
         Schema schema = new Schema(java.util.Arrays.asList(
-            col("k",            new ArrowType.Int(32, true)),
-            col("cumulative_k", new ArrowType.Int(32, true)),
-            col("p_k",          new ArrowType.FloatingPoint(FloatingPointPrecision.DOUBLE))
+            col("k",       new ArrowType.Int(32, true)),
+            col("count_k", new ArrowType.Int(32, true)),
+            col("p_k",     new ArrowType.FloatingPoint(FloatingPointPrecision.DOUBLE))
         ));
         try(BufferAllocator alloc = new RootAllocator();
             VectorSchemaRoot root = VectorSchemaRoot.create(schema, alloc)) {
             IntVector kVec    = (IntVector) root.getVector("k");
-            IntVector cumVec  = (IntVector) root.getVector("cumulative_k");
+            IntVector sVec    = (IntVector) root.getVector("count_k");
             Float8Vector pVec = (Float8Vector) root.getVector("p_k");
             double f          = 0.0;
-            int cum           = 0;
             int row           = 0;
             kVec.allocateNew(n + 1);
-            cumVec.allocateNew(n + 1);
+            sVec.allocateNew(n + 1);
             pVec.allocateNew(n + 1);
             for (int k = 1; k < n + 2; k++) {
                 f += 1.0 * s[k] / trials;
-                cum += s[k];
                 kVec.set(row, k);
-                cumVec.set(row, cum);
+                sVec.set(row, s[k]);
                 pVec.set(row, f);
                 row++;
                 if (f >= 0.5) break;
