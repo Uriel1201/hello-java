@@ -9,7 +9,7 @@
  *
  *  ~/hello-java $ javac -cp "lib/*:lib-arrow/*" -d out introcs/DiscreteDistribution.java
  *
- *  ~/hello-java $ java -cp out DiscreteDistribution 30 10 10 10 20 40
+ *  ~/hello-java $ java --add-opens=java.base/java.nio=ALL-UNNAMED -cp "out:lib/*:lib-arrow/*" DiscreteDistribution 1000000 20 20 30 30 50 50 20 100 500  
  **************************************************************************** */
 import java.util.Random;
 import org.apache.arrow.memory.*;
