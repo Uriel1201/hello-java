@@ -7,7 +7,7 @@
  *  and prints m random indices, choosing each index i
  *  with probability proportional to ai.
  *
- *  ~/hello-java $ javac -d out introcs/DiscreteDistribution.java
+ *  ~/hello-java $ javac -cp "lib/*:lib-arrow/*" -d out introcs/DiscreteDistribution.java
  *
  *  ~/hello-java $ java -cp out DiscreteDistribution 30 10 10 10 20 40
  **************************************************************************** */
