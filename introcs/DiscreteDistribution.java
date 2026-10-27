@@ -52,7 +52,7 @@ public class DiscreteDistribution {
     public static void main(String[] args) {
         int n             = args.length;
         if (n < 2) {
-            System.err.println("Use: java DiscreteDistribution m a1 a2 ... an");
+            System.err.println("Error: Use java DiscreteDistribution m a1 a2 ... an");
             System.exit(1);
         }
         int m             = Integer.parseInt(args[0]);
