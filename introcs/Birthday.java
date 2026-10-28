@@ -59,15 +59,15 @@ public class Birthday {
         int trials    = Integer.parseInt(args[1]);
         int[] s       = birthdaySimulation(n, trials);
         Schema schema = new Schema(java.util.Arrays.asList(
-            col("k",         new ArrowType.Int(32, true)),
+            col("steps",     new ArrowType.Int(32, true)),
             col("frequency", new ArrowType.Int(32, true)),
-            col("p_k",       new ArrowType.FloatingPoint(FloatingPointPrecision.DOUBLE))
+            col("fraction",  new ArrowType.FloatingPoint(FloatingPointPrecision.DOUBLE))
         ));
         try(BufferAllocator alloc = new RootAllocator();
             VectorSchemaRoot root = VectorSchemaRoot.create(schema, alloc)) {
-            IntVector kVec    = (IntVector) root.getVector("k");
+            IntVector kVec    = (IntVector) root.getVector("steps");
             IntVector sVec    = (IntVector) root.getVector("frequency");
-            Float8Vector pVec = (Float8Vector) root.getVector("p_k");
+            Float8Vector pVec = (Float8Vector) root.getVector("distribution");
             double f          = 0.0;
             int row           = 0;
             kVec.allocateNew(n + 1);
@@ -79,7 +79,6 @@ public class Birthday {
                 sVec.set(row, s[k]);
                 pVec.set(row, f);
                 row++;
-                if (f >= 0.5) break;
             }
             root.setRowCount(row);
             try (ArrowStreamWriter writer =
